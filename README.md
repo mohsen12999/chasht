@@ -12,3 +12,11 @@ simple app for buying food from restaurants and fast food around city.
 [ ] - add button in main layout.
 [ ] - make shop icon component.
 [ ] - make food icon component.
+[ ] - add PWA config and manifest to app.
+[ ] - deploy setting.
+
+## Technologies
+
+- [NextJs](https://nextjs.org)
+- [Tailwind](https://tailwindcss.com/)
+- [Daisy UI](https://daisyui.com/)
