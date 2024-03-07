@@ -1,19 +1,19 @@
 # Chasht
 
-simple app for buying food from restaurants and fast food around city.
+simple app for buying food from restaurants and fast food around the city.
 
 ## Todo
 
-[ ] - make first page.
-[ ] - make shop page.
-[ ] - make shop cart page.
-[ ] - make main layout.
-[ ] - add side bar in main layout.
-[ ] - add button in main layout.
-[ ] - make shop icon component.
-[ ] - make food icon component.
-[ ] - add PWA config and manifest to app.
-[ ] - deploy setting.
+- [ ] Make the first page.
+- [ ] Make shops page.
+- [ ] Make the shop cart page.
+- [ ] Make the main layout.
+- [ ] Add side bar for the main layout.
+- [ ] Add button in main layout.
+- [ ] Make shop icon component.
+- [ ] Make food icon component.
+- [ ] Add PWA config and manifest to the app.
+- [ ] Add deploy setting.
 
 ## Technologies
 
