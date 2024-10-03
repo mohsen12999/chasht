@@ -26,3 +26,4 @@ simple app for buying food from restaurants and fast food around the city.
 - `yarn create vite`
 - `yarn add --dev tailwindcss postcss autoprefixer`
 - `npx tailwindcss init -p`
+- `yarn add -D daisyui@latest`
