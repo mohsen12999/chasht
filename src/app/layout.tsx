@@ -6,7 +6,7 @@ import MyBtnNav from '@/components/my-btn-nav';
 
 import './globals.css';
 
-const vazirmatn = Vazirmatn({subsets: ['arabic']});
+const vazir = Vazirmatn({subsets: ['arabic']});
 
 export const metadata: Metadata = {
   title: 'چاشت',
@@ -18,17 +18,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // (document.getElementById('menu-btn') as HTMLInputElement).onclick =
-  //   function () {
-  //     (document.getElementById('my-drawer') as HTMLInputElement).checked = true;
-  //   };
-
   return (
     <html lang="fa">
-      <MyDrawer>
-        <body className={vazirmatn.className}>{children}</body>
-        <MyBtnNav />
-      </MyDrawer>
+      <body className={vazir.className}>
+        <MyDrawer>
+          {children}
+          <MyBtnNav />
+        </MyDrawer>
+      </body>
     </html>
   );
 }
